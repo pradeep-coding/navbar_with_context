@@ -1,4 +1,4 @@
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 
 import {Component} from 'react'
 
@@ -33,7 +33,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/navbar_with_context/" component={Home} />
           <Route exact path="/navbar_with_context/about" component={About} />
-          <Route component={NotFound} />
+          <Route path="/navbar_with_context/not_found" component={NotFound} />
+          <Redirect to="/navbar_with_context/not_found" />
         </Switch>
       </ThemeContext.Provider>
     )
