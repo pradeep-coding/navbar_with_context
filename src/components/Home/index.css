@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.heading {
+  color: #334155;
+}
+
+.home-icon {
+  width: 150px;
+}
+
+.black-bg {
+  background-color: #000000;
+}

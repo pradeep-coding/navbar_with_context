@@ -1,0 +1,28 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.light {
+  color: #ffffff !important;
+}
+
+.black-bg {
+  background-color: #000000;
+}
+
+.notfound-heading {
+  color: #333333;
+}
+
+.notfound-description {
+  color: #64748b;
+}
+
+.notfound-icon {
+  width: 300px;
+}

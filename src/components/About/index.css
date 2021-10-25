@@ -1,0 +1,11 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.about-icon {
+  width: 150px;
+}
