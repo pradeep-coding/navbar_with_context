@@ -31,8 +31,8 @@ class App extends Component {
         }}
       >
         <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
+          <Route exact path="/navbar_with_context/" component={Home} />
+          <Route exact path="/navbar_with_context/about" component={About} />
           <Route component={NotFound} />
         </Switch>
       </ThemeContext.Provider>

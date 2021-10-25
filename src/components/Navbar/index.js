@@ -23,10 +23,10 @@ const Navbar = () => (
           <nav className={`navbar ${navbarColor}`}>
             <img src={logoUrl} alt="website logo" className="website-logo" />
             <ul className="nav-items">
-              <Link to="/" className="nav-item">
+              <Link to="/navbar_with_context/" className="nav-item">
                 <li className={`${navItemColor}`}>Home</li>
               </Link>
-              <Link to="/about" className="nav-item">
+              <Link to="/navbar_with_context/about" className="nav-item">
                 <li className={`${navItemColor}`}>About</li>
               </Link>
             </ul>
